@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # import matplotlib.pyplot as plt
 
 # df = pd.read_csv('data/서울시 우리마을가게 상권분석서비스(상권배후지-소득소비).csv', encoding='CP949')
-df = pd.read_csv('income_consumption.csv', encoding='CP949')
+df = pd.read_csv('raw_data/income_consumption.csv', encoding='CP949')
 
 code = df.iloc[1:, 4].tolist()
 # print(code)
